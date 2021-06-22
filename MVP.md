@@ -6,8 +6,8 @@ I built my model by using NMF, and I ended up getting 7 topics:
 
 Initial version of recommendation engine:
 
-Input = 'Sunny'
-Recommend:
+* Input = 'Sunny'
+
 
 Clean Rain Perfume
 <img src="plots/rec1.png" width=500>
