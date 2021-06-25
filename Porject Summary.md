@@ -25,12 +25,12 @@ NMF: 7 topics
 
 <img src="plots/TSNE.png" width=500>
 
-Topic 1 Woody
-Topic 2 Floral
-Topic 3 Fashion/Popular
-Topic 4 Oriental
-Topic 5 Simple
-Topic 6 Fresh
+Topic 1 Woody\
+Topic 2 Floral\
+Topic 3 Fashion/Popular\
+Topic 4 Oriental\
+Topic 5 Simple\
+Topic 6 Fresh\
 Topic 7 Long Lasting
 
 
