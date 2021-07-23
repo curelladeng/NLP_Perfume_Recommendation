@@ -1,16 +1,16 @@
 # NLP: Fragrance Recommendation System
 Wenting Deng
 
-##Abstract
+## Abstract
 The goal of this project was to build a content-based recommendation system for FragranceX, an online retailer which sells a large selections of fragrances. The data I worked with were scrapped from [FragranceX.com](https://www.fragrancex.com/). It contains 14,187 unique listings and their product descriptions. The recommendation system was built based on topic modeling by using NMF. And a simple version of APP was built by using Streamlit.
 
-##Design
+## Design
 This project could help FragranceX address two applications. On the company side, the topic modeling helps understand the diversity of their products. On the consumer end, the recommendation system recommends more options, it could potentially drive more sales and improve customer experience.
 
-##Data
+## Data
 The data were scrapped from [FragranceX.com](https://www.fragrancex.com/). It contains 14,187 unique listings on the website. It includes product names, listing urls, product descriptions and product review scores. And the average length of each product description is 150 words after excluding punctuations and numbers.
 
-##Algorithms
+## Algorithms
 **NLP**
 NLP was conducted on product descriptions:
 1. Vectorize text by TfidfVectorizer, and convert the data into doc-term matrix
@@ -48,5 +48,5 @@ The logic of recommendation system as below:
 **Model Test**
 Because it's an unsupervised model which we don't have a standard metric to test its performance. The topic model was evaluated by human sense and the recommendation system was tested by other users.
 
-##Communication##
+## Communication##
 Slides
